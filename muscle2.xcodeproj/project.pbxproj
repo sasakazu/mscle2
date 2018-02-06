@@ -15,6 +15,10 @@
 		736F3EE92029B14900A18B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736F3EE72029B14900A18B3B /* LaunchScreen.storyboard */; };
 		736F3EF42029B14A00A18B3B /* muscle2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3EF32029B14A00A18B3B /* muscle2Tests.swift */; };
 		736F3EFF2029B14A00A18B3B /* muscle2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3EFE2029B14A00A18B3B /* muscle2UITests.swift */; };
+		736F3F0D2029BBEF00A18B3B /* timerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F0C2029BBEF00A18B3B /* timerViewController.swift */; };
+		736F3F0F2029BC0300A18B3B /* acoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F0E2029BC0300A18B3B /* acoutViewController.swift */; };
+		736F3F112029BE0D00A18B3B /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F102029BE0D00A18B3B /* menuViewController.swift */; };
+		736F3F132029BEB200A18B3B /* menuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F122029BEB200A18B3B /* menuDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		736F3EFA2029B14A00A18B3B /* muscle2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = muscle2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		736F3EFE2029B14A00A18B3B /* muscle2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muscle2UITests.swift; sourceTree = "<group>"; };
 		736F3F002029B14A00A18B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736F3F0C2029BBEF00A18B3B /* timerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerViewController.swift; sourceTree = "<group>"; };
+		736F3F0E2029BC0300A18B3B /* acoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acoutViewController.swift; sourceTree = "<group>"; };
+		736F3F102029BE0D00A18B3B /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		736F3F122029BEB200A18B3B /* menuDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				736F3EDB2029B14900A18B3B /* AppDelegate.swift */,
 				736F3EDD2029B14900A18B3B /* ViewController.swift */,
 				736F3EDF2029B14900A18B3B /* Main.storyboard */,
+				736F3F122029BEB200A18B3B /* menuDetailViewController.swift */,
+				736F3F102029BE0D00A18B3B /* menuViewController.swift */,
+				736F3F0E2029BC0300A18B3B /* acoutViewController.swift */,
+				736F3F0C2029BBEF00A18B3B /* timerViewController.swift */,
 				736F3EE52029B14900A18B3B /* Assets.xcassets */,
 				736F3EE72029B14900A18B3B /* LaunchScreen.storyboard */,
 				736F3EEA2029B14900A18B3B /* Info.plist */,
@@ -262,7 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736F3F132029BEB200A18B3B /* menuDetailViewController.swift in Sources */,
+				736F3F0D2029BBEF00A18B3B /* timerViewController.swift in Sources */,
 				736F3EDE2029B14900A18B3B /* ViewController.swift in Sources */,
+				736F3F0F2029BC0300A18B3B /* acoutViewController.swift in Sources */,
+				736F3F112029BE0D00A18B3B /* menuViewController.swift in Sources */,
 				736F3EE42029B14900A18B3B /* muscle2.xcdatamodeld in Sources */,
 				736F3EDC2029B14900A18B3B /* AppDelegate.swift in Sources */,
 			);
