@@ -20,6 +20,10 @@
 		736F3F0F2029BC0300A18B3B /* acoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F0E2029BC0300A18B3B /* acoutViewController.swift */; };
 		736F3F112029BE0D00A18B3B /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F102029BE0D00A18B3B /* menuViewController.swift */; };
 		736F3F132029BEB200A18B3B /* menuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F122029BEB200A18B3B /* menuDetailViewController.swift */; };
+		73E867A2202F06F5007ECA4E /* stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A1202F06F5007ECA4E /* stopwatch.png */; };
+		73E867A4202F0742007ECA4E /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A3202F0742007ECA4E /* menu.png */; };
+		73E867A6202F077D007ECA4E /* menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A5202F077D007ECA4E /* menu2.png */; };
+		73E867A8202F07E5007ECA4E /* acount.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A7202F07E5007ECA4E /* acount.png */; };
 		8DDF8CB3679AF799D7160328 /* Pods_muscle2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BB36B1358A1077A0EC187C /* Pods_muscle2.framework */; };
 		A21FABDE6760625AE0B12141 /* Pods_muscle2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625F163168067A38EE247A4D /* Pods_muscle2Tests.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +70,10 @@
 		736F3F0E2029BC0300A18B3B /* acoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acoutViewController.swift; sourceTree = "<group>"; };
 		736F3F102029BE0D00A18B3B /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 		736F3F122029BEB200A18B3B /* menuDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuDetailViewController.swift; sourceTree = "<group>"; };
+		73E867A1202F06F5007ECA4E /* stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch.png; sourceTree = "<group>"; };
+		73E867A3202F0742007ECA4E /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		73E867A5202F077D007ECA4E /* menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu2.png; sourceTree = "<group>"; };
+		73E867A7202F07E5007ECA4E /* acount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acount.png; sourceTree = "<group>"; };
 		7AC72FACEC133840465B6CAC /* Pods-muscle2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2.release.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2/Pods-muscle2.release.xcconfig"; sourceTree = "<group>"; };
 		C0BB36B1358A1077A0EC187C /* Pods_muscle2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muscle2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E720C1CEFBC3BA5FF24F0032 /* Pods-muscle2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2/Pods-muscle2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,8 +144,9 @@
 			children = (
 				736F3EDB2029B14900A18B3B /* AppDelegate.swift */,
 				736F3EDD2029B14900A18B3B /* ViewController.swift */,
-				736F3EDF2029B14900A18B3B /* Main.storyboard */,
+				73E867A0202F06CC007ECA4E /* images */,
 				736F3F122029BEB200A18B3B /* menuDetailViewController.swift */,
+				736F3EDF2029B14900A18B3B /* Main.storyboard */,
 				736F3F102029BE0D00A18B3B /* menuViewController.swift */,
 				736F3F0E2029BC0300A18B3B /* acoutViewController.swift */,
 				736F3F0C2029BBEF00A18B3B /* timerViewController.swift */,
@@ -165,6 +174,17 @@
 				736F3F002029B14A00A18B3B /* Info.plist */,
 			);
 			path = muscle2UITests;
+			sourceTree = "<group>";
+		};
+		73E867A0202F06CC007ECA4E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				73E867A7202F07E5007ECA4E /* acount.png */,
+				73E867A3202F0742007ECA4E /* menu.png */,
+				73E867A5202F077D007ECA4E /* menu2.png */,
+				73E867A1202F06F5007ECA4E /* stopwatch.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		8C46D39957D7A392142EE355 /* Pods */ = {
@@ -297,6 +317,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				736F3EE92029B14900A18B3B /* LaunchScreen.storyboard in Resources */,
+				73E867A4202F0742007ECA4E /* menu.png in Resources */,
+				73E867A8202F07E5007ECA4E /* acount.png in Resources */,
+				73E867A2202F06F5007ECA4E /* stopwatch.png in Resources */,
+				73E867A6202F077D007ECA4E /* menu2.png in Resources */,
 				736F3EE62029B14900A18B3B /* Assets.xcassets in Resources */,
 				736F3EE12029B14900A18B3B /* Main.storyboard in Resources */,
 			);
