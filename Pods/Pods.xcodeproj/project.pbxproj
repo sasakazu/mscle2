@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C931A7AFCE91442F57E7039233F080 /* Pods-muscle2UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE058709C3E440B03677345AD4EA59B0 /* Pods-muscle2UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2236C49D2A824B6973BECB2CB16128BE /* Pods-muscle2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB191A88122EE55AD2638425B5FA13 /* Pods-muscle2-dummy.m */; };
+		301478EE133F97D82CD88C70933B2630 /* Pods-muscle2UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 452B62FE8CB82EB4732E7281A5CA11EC /* Pods-muscle2UITests-dummy.m */; };
+		30C765D892CA168A5B9432F86EF7D881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		321296C6747292821BCEBAC28DD2C8FF /* Pods-muscle2Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BAA5F67E3D2094F1F8F95F0107772E /* Pods-muscle2Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8866156E4CCEA3E57B204BB99BCC1F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8F9BBC06C6D34BDB1292E55B2C79042F /* Pods-muscle2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1201C97B99BE070D1E7EA1D31FC2CA /* Pods-muscle2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FD6C50D44AB5E463DCB0F7A7031266 /* Pods-muscle2Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59093F3BCBCDAB89C59DE7256495AEBC /* Pods-muscle2Tests-dummy.m */; };
+		B7D00D18533627CE48800F56EA536283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02E030B0D41BAA6FDAEAC0E43B3E53C3 /* Pods-muscle2UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-muscle2UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09BAA5F67E3D2094F1F8F95F0107772E /* Pods-muscle2Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-muscle2Tests-umbrella.h"; sourceTree = "<group>"; };
+		18D1DC14715BE72973CC663E61FB6450 /* Pods-muscle2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-muscle2.modulemap"; sourceTree = "<group>"; };
+		2703D4268371CFD3EDEF2893C897FF4F /* Pods_muscle2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_muscle2UITests.framework; path = "Pods-muscle2UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2830B46115357EBB5AF091E117C1E69B /* Pods-muscle2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-muscle2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		44AC3FBC3449E9CC28FFF9F596B9EF65 /* Pods-muscle2UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-muscle2UITests-resources.sh"; sourceTree = "<group>"; };
+		452B62FE8CB82EB4732E7281A5CA11EC /* Pods-muscle2UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-muscle2UITests-dummy.m"; sourceTree = "<group>"; };
+		46CD27C3463C1D268C7FC3F3A125A067 /* Pods-muscle2Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-muscle2Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		59093F3BCBCDAB89C59DE7256495AEBC /* Pods-muscle2Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-muscle2Tests-dummy.m"; sourceTree = "<group>"; };
+		6412DF94CFB254D32D3E851C59CCD624 /* Pods-muscle2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-muscle2-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69EA9B37DE165317DF02DF846919A9F1 /* Pods-muscle2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-muscle2-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BC1F2EC55B6CBA0BF50BAA17BECDE78 /* Pods_muscle2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_muscle2Tests.framework; path = "Pods-muscle2Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA7F16439B18896BD3C730FE59CA754 /* Pods-muscle2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-muscle2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D714EE5254498DF551BEBE2F039583C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FBB191A88122EE55AD2638425B5FA13 /* Pods-muscle2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-muscle2-dummy.m"; sourceTree = "<group>"; };
+		86A10868E22DA2ACE37A00C975223F57 /* Pods_muscle2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_muscle2.framework; path = "Pods-muscle2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977892A12A64FD9F11CD0F748022EE06 /* Pods-muscle2Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-muscle2Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E33050B84E4AFB5B50DB0C99698256A /* Pods-muscle2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-muscle2.release.xcconfig"; sourceTree = "<group>"; };
+		A56220D8FBF1262003ACE3B596A9C629 /* Pods-muscle2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-muscle2-frameworks.sh"; sourceTree = "<group>"; };
+		AB124811061E7CE43BC1143A4005D401 /* Pods-muscle2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-muscle2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE058709C3E440B03677345AD4EA59B0 /* Pods-muscle2UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-muscle2UITests-umbrella.h"; sourceTree = "<group>"; };
+		C30D6C06A857D4F0A3B8196F0D5CCBE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98F9DC46DFFFDE388ECA376F1CC19FC /* Pods-muscle2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-muscle2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D4A69360BF9E72672AF049B9A5A64485 /* Pods-muscle2Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-muscle2Tests.modulemap"; sourceTree = "<group>"; };
+		D8344A18A3CECCF5948EFFA21CFAB52B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1201C97B99BE070D1E7EA1D31FC2CA /* Pods-muscle2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-muscle2-umbrella.h"; sourceTree = "<group>"; };
+		E58BCAB897A82D2B8DA39322A78D5338 /* Pods-muscle2Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-muscle2Tests-resources.sh"; sourceTree = "<group>"; };
+		EDB27C81C18F18C35B73D0CCF9A8AA1A /* Pods-muscle2UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-muscle2UITests-frameworks.sh"; sourceTree = "<group>"; };
+		FD23CB5CC55D35990953BEECF6E5C030 /* Pods-muscle2UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-muscle2UITests.modulemap"; sourceTree = "<group>"; };
+		FEE337946B70FC737AE3AB6D67D0EE5D /* Pods-muscle2UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-muscle2UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF0B8C11F81CF314E534D3A798E61F86 /* Pods-muscle2Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-muscle2Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FF1F1A2383E63588C64D7477250606BA /* Pods-muscle2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-muscle2.debug.xcconfig"; sourceTree = "<group>"; };
+		FF816544A7CD17B1B19021591E1D8423 /* Pods-muscle2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-muscle2-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D302DFA4C8F0545D775C1B9C86393E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C765D892CA168A5B9432F86EF7D881 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D06E6046D07DC1B433C1B9BD6C453B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D00D18533627CE48800F56EA536283 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97F0CB51A14F0AA5CBA743A43648047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8866156E4CCEA3E57B204BB99BCC1F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02320D54B1036C04C361600D59B903A2 /* Pods-muscle2 */ = {
+			isa = PBXGroup;
+			children = (
+				D8344A18A3CECCF5948EFFA21CFAB52B /* Info.plist */,
+				18D1DC14715BE72973CC663E61FB6450 /* Pods-muscle2.modulemap */,
+				FF816544A7CD17B1B19021591E1D8423 /* Pods-muscle2-acknowledgements.markdown */,
+				69EA9B37DE165317DF02DF846919A9F1 /* Pods-muscle2-acknowledgements.plist */,
+				7FBB191A88122EE55AD2638425B5FA13 /* Pods-muscle2-dummy.m */,
+				A56220D8FBF1262003ACE3B596A9C629 /* Pods-muscle2-frameworks.sh */,
+				6412DF94CFB254D32D3E851C59CCD624 /* Pods-muscle2-resources.sh */,
+				DD1201C97B99BE070D1E7EA1D31FC2CA /* Pods-muscle2-umbrella.h */,
+				FF1F1A2383E63588C64D7477250606BA /* Pods-muscle2.debug.xcconfig */,
+				9E33050B84E4AFB5B50DB0C99698256A /* Pods-muscle2.release.xcconfig */,
+			);
+			name = "Pods-muscle2";
+			path = "Target Support Files/Pods-muscle2";
+			sourceTree = "<group>";
+		};
+		78DED635453F4B6E0376DC0810187F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86A10868E22DA2ACE37A00C975223F57 /* Pods_muscle2.framework */,
+				6BC1F2EC55B6CBA0BF50BAA17BECDE78 /* Pods_muscle2Tests.framework */,
+				2703D4268371CFD3EDEF2893C897FF4F /* Pods_muscle2UITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				78DED635453F4B6E0376DC0810187F2F /* Products */,
+				9FFEE31F81EA3C29B2681E858AEE2DB9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D02199DB170541CCB3A55FB0D2A39DE /* Pods-muscle2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D714EE5254498DF551BEBE2F039583C /* Info.plist */,
+				FD23CB5CC55D35990953BEECF6E5C030 /* Pods-muscle2UITests.modulemap */,
+				02E030B0D41BAA6FDAEAC0E43B3E53C3 /* Pods-muscle2UITests-acknowledgements.markdown */,
+				FEE337946B70FC737AE3AB6D67D0EE5D /* Pods-muscle2UITests-acknowledgements.plist */,
+				452B62FE8CB82EB4732E7281A5CA11EC /* Pods-muscle2UITests-dummy.m */,
+				EDB27C81C18F18C35B73D0CCF9A8AA1A /* Pods-muscle2UITests-frameworks.sh */,
+				44AC3FBC3449E9CC28FFF9F596B9EF65 /* Pods-muscle2UITests-resources.sh */,
+				BE058709C3E440B03677345AD4EA59B0 /* Pods-muscle2UITests-umbrella.h */,
+				AB124811061E7CE43BC1143A4005D401 /* Pods-muscle2UITests.debug.xcconfig */,
+				6CA7F16439B18896BD3C730FE59CA754 /* Pods-muscle2UITests.release.xcconfig */,
+			);
+			name = "Pods-muscle2UITests";
+			path = "Target Support Files/Pods-muscle2UITests";
+			sourceTree = "<group>";
+		};
+		9FFEE31F81EA3C29B2681E858AEE2DB9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02320D54B1036C04C361600D59B903A2 /* Pods-muscle2 */,
+				A70914CF21D5F06D257594AE75EA7584 /* Pods-muscle2Tests */,
+				8D02199DB170541CCB3A55FB0D2A39DE /* Pods-muscle2UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A70914CF21D5F06D257594AE75EA7584 /* Pods-muscle2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C30D6C06A857D4F0A3B8196F0D5CCBE6 /* Info.plist */,
+				D4A69360BF9E72672AF049B9A5A64485 /* Pods-muscle2Tests.modulemap */,
+				977892A12A64FD9F11CD0F748022EE06 /* Pods-muscle2Tests-acknowledgements.markdown */,
+				46CD27C3463C1D268C7FC3F3A125A067 /* Pods-muscle2Tests-acknowledgements.plist */,
+				59093F3BCBCDAB89C59DE7256495AEBC /* Pods-muscle2Tests-dummy.m */,
+				FF0B8C11F81CF314E534D3A798E61F86 /* Pods-muscle2Tests-frameworks.sh */,
+				E58BCAB897A82D2B8DA39322A78D5338 /* Pods-muscle2Tests-resources.sh */,
+				09BAA5F67E3D2094F1F8F95F0107772E /* Pods-muscle2Tests-umbrella.h */,
+				2830B46115357EBB5AF091E117C1E69B /* Pods-muscle2Tests.debug.xcconfig */,
+				C98F9DC46DFFFDE388ECA376F1CC19FC /* Pods-muscle2Tests.release.xcconfig */,
+			);
+			name = "Pods-muscle2Tests";
+			path = "Target Support Files/Pods-muscle2Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A0716982B06623561C75235D88BA0D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9BBC06C6D34BDB1292E55B2C79042F /* Pods-muscle2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C68E83DC5411C725F086452528B66C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C931A7AFCE91442F57E7039233F080 /* Pods-muscle2UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85265D2EE5683CAF7627D367A5A8D1D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321296C6747292821BCEBAC28DD2C8FF /* Pods-muscle2Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00714B1ACA73F36C02F9728F667905A8 /* Pods-muscle2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB350E6BCC9EFDFFD54E5B263717864 /* Build configuration list for PBXNativeTarget "Pods-muscle2Tests" */;
+			buildPhases = (
+				68FD9375100AA0E780A8BE6165D8013C /* Sources */,
+				5D302DFA4C8F0545D775C1B9C86393E4 /* Frameworks */,
+				85265D2EE5683CAF7627D367A5A8D1D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-muscle2Tests";
+			productName = "Pods-muscle2Tests";
+			productReference = 6BC1F2EC55B6CBA0BF50BAA17BECDE78 /* Pods_muscle2Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		339E0142AFE88AD2E6266133BBC00B95 /* Pods-muscle2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8467A3DA2F2E2DE331FF06F7CA0E65A /* Build configuration list for PBXNativeTarget "Pods-muscle2UITests" */;
+			buildPhases = (
+				487640BD254D7B548B537A1A853BA93C /* Sources */,
+				D97F0CB51A14F0AA5CBA743A43648047 /* Frameworks */,
+				5C68E83DC5411C725F086452528B66C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-muscle2UITests";
+			productName = "Pods-muscle2UITests";
+			productReference = 2703D4268371CFD3EDEF2893C897FF4F /* Pods_muscle2UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80986A30B83568C3CDF9D509AB375304 /* Pods-muscle2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88889032CD98B3F79C8C31A4E5907BBE /* Build configuration list for PBXNativeTarget "Pods-muscle2" */;
+			buildPhases = (
+				C2E618CD77C6DB488277C3EDC3AB102C /* Sources */,
+				8D06E6046D07DC1B433C1B9BD6C453B4 /* Frameworks */,
+				1A0716982B06623561C75235D88BA0D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-muscle2";
+			productName = "Pods-muscle2";
+			productReference = 86A10868E22DA2ACE37A00C975223F57 /* Pods_muscle2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 78DED635453F4B6E0376DC0810187F2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80986A30B83568C3CDF9D509AB375304 /* Pods-muscle2 */,
+				00714B1ACA73F36C02F9728F667905A8 /* Pods-muscle2Tests */,
+				339E0142AFE88AD2E6266133BBC00B95 /* Pods-muscle2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		487640BD254D7B548B537A1A853BA93C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301478EE133F97D82CD88C70933B2630 /* Pods-muscle2UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68FD9375100AA0E780A8BE6165D8013C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FD6C50D44AB5E463DCB0F7A7031266 /* Pods-muscle2Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E618CD77C6DB488277C3EDC3AB102C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2236C49D2A824B6973BECB2CB16128BE /* Pods-muscle2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		60328692848148874D68CB987E8C048E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB124811061E7CE43BC1143A4005D401 /* Pods-muscle2UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-muscle2UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-muscle2UITests/Pods-muscle2UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_muscle2UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707E01FE9456C65CB978B82C098F325D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2830B46115357EBB5AF091E117C1E69B /* Pods-muscle2Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-muscle2Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-muscle2Tests/Pods-muscle2Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_muscle2Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8581241EDE01AE7CC8F7694180224839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA7F16439B18896BD3C730FE59CA754 /* Pods-muscle2UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-muscle2UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-muscle2UITests/Pods-muscle2UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_muscle2UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		966C5C071E56E8FD2ECF47BF9B72A40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98F9DC46DFFFDE388ECA376F1CC19FC /* Pods-muscle2Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-muscle2Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-muscle2Tests/Pods-muscle2Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_muscle2Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B508F27B0407A3C85AB2988C9B8649E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E33050B84E4AFB5B50DB0C99698256A /* Pods-muscle2.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-muscle2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-muscle2/Pods-muscle2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_muscle2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F10D37BD5A1B73084D89CCA64FC48F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1F1A2383E63588C64D7477250606BA /* Pods-muscle2.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-muscle2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-muscle2/Pods-muscle2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_muscle2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CB350E6BCC9EFDFFD54E5B263717864 /* Build configuration list for PBXNativeTarget "Pods-muscle2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707E01FE9456C65CB978B82C098F325D /* Debug */,
+				966C5C071E56E8FD2ECF47BF9B72A40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88889032CD98B3F79C8C31A4E5907BBE /* Build configuration list for PBXNativeTarget "Pods-muscle2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10D37BD5A1B73084D89CCA64FC48F77 /* Debug */,
+				B508F27B0407A3C85AB2988C9B8649E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8467A3DA2F2E2DE331FF06F7CA0E65A /* Build configuration list for PBXNativeTarget "Pods-muscle2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60328692848148874D68CB987E8C048E /* Debug */,
+				8581241EDE01AE7CC8F7694180224839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
