@@ -24,6 +24,7 @@
 		73E867A4202F0742007ECA4E /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A3202F0742007ECA4E /* menu.png */; };
 		73E867A6202F077D007ECA4E /* menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A5202F077D007ECA4E /* menu2.png */; };
 		73E867A8202F07E5007ECA4E /* acount.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A7202F07E5007ECA4E /* acount.png */; };
+		73E867AA20305868007ECA4E /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A920305867007ECA4E /* cat.jpeg */; };
 		8DDF8CB3679AF799D7160328 /* Pods_muscle2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BB36B1358A1077A0EC187C /* Pods_muscle2.framework */; };
 		A21FABDE6760625AE0B12141 /* Pods_muscle2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625F163168067A38EE247A4D /* Pods_muscle2Tests.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +75,7 @@
 		73E867A3202F0742007ECA4E /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		73E867A5202F077D007ECA4E /* menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu2.png; sourceTree = "<group>"; };
 		73E867A7202F07E5007ECA4E /* acount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acount.png; sourceTree = "<group>"; };
+		73E867A920305867007ECA4E /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
 		7AC72FACEC133840465B6CAC /* Pods-muscle2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2.release.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2/Pods-muscle2.release.xcconfig"; sourceTree = "<group>"; };
 		C0BB36B1358A1077A0EC187C /* Pods_muscle2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muscle2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E720C1CEFBC3BA5FF24F0032 /* Pods-muscle2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2/Pods-muscle2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 		73E867A0202F06CC007ECA4E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				73E867A920305867007ECA4E /* cat.jpeg */,
 				73E867A7202F07E5007ECA4E /* acount.png */,
 				73E867A3202F0742007ECA4E /* menu.png */,
 				73E867A5202F077D007ECA4E /* menu2.png */,
@@ -320,6 +323,7 @@
 				73E867A4202F0742007ECA4E /* menu.png in Resources */,
 				73E867A8202F07E5007ECA4E /* acount.png in Resources */,
 				73E867A2202F06F5007ECA4E /* stopwatch.png in Resources */,
+				73E867AA20305868007ECA4E /* cat.jpeg in Resources */,
 				73E867A6202F077D007ECA4E /* menu2.png in Resources */,
 				736F3EE62029B14900A18B3B /* Assets.xcassets in Resources */,
 				736F3EE12029B14900A18B3B /* Main.storyboard in Resources */,
