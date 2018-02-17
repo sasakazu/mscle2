@@ -8,17 +8,45 @@
 
 import UIKit
 
-class menuViewController: UIViewController {
+class menuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    let menuItem = ["胸メニュー","腕メニュー","背中メニュー","足メニュー","腹メニュー"]
+    
+    
+    @IBOutlet weak var menuTableView: UITableView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        menuTableView.dataSource = self
+        menuTableView.delegate = self
+        
     }
 
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return menuItem.count
+    }
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "Cell")
+        
+        cell.textLabel?.text = menuItem[indexPath.row]
+        
+        return cell
+    }
+    
+    
+    func tableView(_ table: UITableView, didSelectRowAt indexPath:IndexPath) {
+        print(menuItem[indexPath.row])
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        
     }
     
 
