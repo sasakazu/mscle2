@@ -276,7 +276,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IQ-yS-OwG">
                                 <rect key="frame" x="114" y="528.5" width="147" height="30"/>
-                                <state key="normal" title="[ プロフィール編集 ]"/>
+                                <state key="normal" title="[  プロフィール編集  ]"/>
                                 <connections>
                                     <segue destination="ynk-g7-RrO" kind="show" id="HA1-Cf-Kx2"/>
                                 </connections>
@@ -290,7 +290,7 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="25"/>
+                                        <integer key="value" value="12"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
