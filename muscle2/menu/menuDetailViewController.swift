@@ -20,6 +20,7 @@ class menuDetailViewController: UIViewController, UITableViewDelegate, UITableVi
         
         muneTableView.dataSource = self
         muneTableView.delegate = self
+
         
     }
     
@@ -35,9 +36,7 @@ class menuDetailViewController: UIViewController, UITableViewDelegate, UITableVi
         
         return cell
     }
-    
-    
-    
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
