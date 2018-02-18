@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FXy-fT-a56">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FOT-lk-38v">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -71,8 +71,8 @@
                     <navigationItem key="navigationItem" id="wt9-8Y-Lde"/>
                     <connections>
                         <outlet property="menuTableView" destination="s4z-jM-J0D" id="JTI-5b-hBC"/>
-                        <segue destination="9aU-gY-T71" kind="show" id="VSN-u4-pss"/>
-                        <segue destination="FXy-fT-a56" kind="show" id="8nd-Wd-Gk8"/>
+                        <segue destination="FXy-fT-a56" kind="show" identifier="gotoude" id="lFb-XU-SG6"/>
+                        <segue destination="9aU-gY-T71" kind="show" identifier="gotomune" id="0wF-pw-1x4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DP1-7L-4bA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -82,7 +82,7 @@
         <!--Menu Detail View Controller-->
         <scene sceneID="k8P-kK-cbF">
             <objects>
-                <viewController id="9aU-gY-T71" customClass="menuDetailViewController" customModule="muscle2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="categorySelect" id="9aU-gY-T71" customClass="menuDetailViewController" customModule="muscle2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oH2-qv-Pjx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

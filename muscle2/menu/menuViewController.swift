@@ -37,11 +37,33 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
         return cell
     }
     
-    
-    func tableView(_ table: UITableView, didSelectRowAt indexPath:IndexPath) {
-        print(menuItem[indexPath.row])
+    func tableView(_ table: UITableView,didSelectRowAt indexPath: IndexPath) {
+        
+             if indexPath.row == 0 {
+     
+            performSegue(withIdentifier: "gotomune",sender: nil)
+        }
+        
+        if indexPath.row == 1 {
+            
+            performSegue(withIdentifier: "gotoude",sender: nil)
+        }
+        
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
+        
+        if (segue.identifier == "gotomune") {
+            let _: menuDetailViewController = (segue.destination as? menuDetailViewController)!
+            
+        
+        }
+        
+   
+    }
+    
+        
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
