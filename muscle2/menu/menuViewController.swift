@@ -10,7 +10,7 @@ import UIKit
 
 class menuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let menuItem = ["胸メニュー","腕メニュー","背中メニュー","足メニュー","腹メニュー"]
+    let menuItem = ["胸メニュー", "腕メニュー","背中メニュー","足メニュー","腹メニュー"]
     
     
     @IBOutlet weak var menuTableView: UITableView!
