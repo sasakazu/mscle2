@@ -30,9 +30,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5H-yy-jfZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="284" y="-1242"/>
+            <point key="canvasLocation" x="369" y="-699"/>
         </scene>
-        <!--Menu View Controller-->
+        <!--今日のメニュー-->
         <scene sceneID="OZp-wx-iQF">
             <objects>
                 <viewController id="o4R-Jx-JFG" customClass="menuViewController" customModule="muscle2" customModuleProvider="target" sceneMemberID="viewController">
@@ -68,14 +68,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CwL-bg-Zox"/>
                     </view>
-                    <navigationItem key="navigationItem" id="wt9-8Y-Lde"/>
+                    <navigationItem key="navigationItem" title="今日のメニュー" id="wt9-8Y-Lde"/>
                     <connections>
                         <outlet property="menuTableView" destination="s4z-jM-J0D" id="JTI-5b-hBC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DP1-7L-4bA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1138" y="-1243"/>
+            <point key="canvasLocation" x="1183" y="-699"/>
         </scene>
         <!--インターバル-->
         <scene sceneID="dtI-ng-sK2">
@@ -162,7 +162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hvH-cY-WEm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="508" y="-456.52173913043481"/>
+            <point key="canvasLocation" x="458" y="70"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="neO-h7-Uti">
@@ -198,9 +198,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T5i-cT-W95" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-35" y="975"/>
+            <point key="canvasLocation" x="-466" y="809"/>
         </scene>
-        <!--View Controller-->
+        <!--アカウント-->
         <scene sceneID="niq-qr-GpL">
             <objects>
                 <viewController id="XTv-gs-0wn" sceneMemberID="viewController">
@@ -258,13 +258,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="091-AR-2KP"/>
                     </view>
-                    <navigationItem key="navigationItem" id="uMK-vF-V5l">
+                    <navigationItem key="navigationItem" title="アカウント" id="uMK-vF-V5l">
                         <barButtonItem key="rightBarButtonItem" title="LogOut" id="fJn-xl-yK8"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YeK-0S-5sC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="717.60000000000002" y="974.6626686656673"/>
+            <point key="canvasLocation" x="457" y="808"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="m74-pT-wu8">
@@ -279,7 +279,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xDK-Xc-ykI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1508" y="975"/>
+            <point key="canvasLocation" x="1319" y="808"/>
         </scene>
     </scenes>
     <resources>

@@ -10,8 +10,13 @@ import UIKit
 
 class menuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let menuItem = ["胸メニュー", "腕メニュー","背中メニュー","足メニュー","腹メニュー"]
+    let muneItem = ["ベンチ"]
+    let udeItem = [ "ダンベル" ]
+    let senakaItem = [ "懸垂" ]
+    let haraItem = [ "腹筋" ]
+    let ashiItem = [ "デットリフト" ]
     
+    let menuSection = [ "胸","腕", "背中", "腹", "足" ]
     
     
     @IBOutlet weak var menuTableView: UITableView!
@@ -25,15 +30,35 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
         
     }
 
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return menuItem.count
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return menuSection.count
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "Cell")
+
         
-        cell.textLabel?.text = menuItem[indexPath.row]
+        if indexPath.section == 0 {
+            cell.textLabel?.text = "\(muneItem[indexPath.row])"
+            
+        } else if indexPath.section == 1 {
+            
+            cell.textLabel?.text = "\(udeItem[indexPath.row])"
+            
+        } else if indexPath.section == 2 {
+            
+            cell.textLabel?.text = "\(senakaItem[indexPath.row])"
+            
+        } else if indexPath.section == 3 {
+            
+            cell.textLabel?.text = "\(ashiItem[indexPath.row])"
+            
+        } else if indexPath.section == 4 {
+            
+            cell.textLabel?.text = "\(haraItem[indexPath.row])"
+        }
+        
         
         return cell
     }
@@ -44,7 +69,30 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        
+        return menuSection[section]
+    }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if section == 0 {
+            return muneItem.count
+        } else if section == 1 {
+            return udeItem.count
+            
+        } else if section == 2 {
+            return senakaItem.count
+            
+        } else if section == 3 {
+            return ashiItem.count
+            
+        } else if section == 4 {
+            return haraItem.count
+            
+        } else {
+            return 0
+        }
+    }
 
     
         
