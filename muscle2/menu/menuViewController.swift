@@ -28,8 +28,12 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
         menuTableView.dataSource = self
         menuTableView.delegate = self
         
+        menuTableView.allowsMultipleSelection = true
+        
     }
 
+    
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return menuSection.count
     }
@@ -64,10 +68,20 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ table: UITableView,didSelectRowAt indexPath: IndexPath) {
+      
+        let cell = menuTableView.cellForRow(at:indexPath)
         
+        cell?.accessoryType = .checkmark
      
     }
     
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at:indexPath)
+        
+        
+        cell?.accessoryType = .none
+    }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
