@@ -144,8 +144,8 @@
 			children = (
 				736F3EDB2029B14900A18B3B /* AppDelegate.swift */,
 				736F3EDD2029B14900A18B3B /* ViewController.swift */,
-				73E867A0202F06CC007ECA4E /* images */,
 				736F3EDF2029B14900A18B3B /* Main.storyboard */,
+				73E867A0202F06CC007ECA4E /* images */,
 				73EFEF61203966A500EBC7B2 /* menu */,
 				73EFEF62203966D100EBC7B2 /* user */,
 				736F3F0C2029BBEF00A18B3B /* timerViewController.swift */,
