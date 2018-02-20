@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3FB2AC302CBEA556EB1EA525 /* Pods_muscle2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50429A7B3B0E56AB70BAFC1E /* Pods_muscle2UITests.framework */; };
-		735DBBE2203C04AA0079FE0F /* senakMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DBBE1203C04AA0079FE0F /* senakMenuViewController.swift */; };
-		735DBBE4203C04BD0079FE0F /* ashiMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DBBE3203C04BD0079FE0F /* ashiMenuViewController.swift */; };
-		735DBBE6203C04CA0079FE0F /* haraMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DBBE5203C04CA0079FE0F /* haraMenuViewController.swift */; };
 		736F3EDC2029B14900A18B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3EDB2029B14900A18B3B /* AppDelegate.swift */; };
 		736F3EDE2029B14900A18B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3EDD2029B14900A18B3B /* ViewController.swift */; };
 		736F3EE12029B14900A18B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736F3EDF2029B14900A18B3B /* Main.storyboard */; };
@@ -22,13 +19,11 @@
 		736F3F0D2029BBEF00A18B3B /* timerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F0C2029BBEF00A18B3B /* timerViewController.swift */; };
 		736F3F0F2029BC0300A18B3B /* acoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F0E2029BC0300A18B3B /* acoutViewController.swift */; };
 		736F3F112029BE0D00A18B3B /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F102029BE0D00A18B3B /* menuViewController.swift */; };
-		736F3F132029BEB200A18B3B /* menuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F122029BEB200A18B3B /* menuDetailViewController.swift */; };
 		73E867A2202F06F5007ECA4E /* stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A1202F06F5007ECA4E /* stopwatch.png */; };
 		73E867A4202F0742007ECA4E /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A3202F0742007ECA4E /* menu.png */; };
 		73E867A6202F077D007ECA4E /* menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A5202F077D007ECA4E /* menu2.png */; };
 		73E867A8202F07E5007ECA4E /* acount.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A7202F07E5007ECA4E /* acount.png */; };
 		73E867AA20305868007ECA4E /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A920305867007ECA4E /* cat.jpeg */; };
-		73EFEF642039670500EBC7B2 /* udeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EFEF632039670500EBC7B2 /* udeMenuViewController.swift */; };
 		8DDF8CB3679AF799D7160328 /* Pods_muscle2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BB36B1358A1077A0EC187C /* Pods_muscle2.framework */; };
 		A21FABDE6760625AE0B12141 /* Pods_muscle2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625F163168067A38EE247A4D /* Pods_muscle2Tests.framework */; };
 /* End PBXBuildFile section */
@@ -57,9 +52,6 @@
 		625F163168067A38EE247A4D /* Pods_muscle2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muscle2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		700AC5BE1D36CF5A0FAE289A /* Pods-muscle2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2UITests/Pods-muscle2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		725CBF2E50DC6EA735A4B8DE /* Pods-muscle2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2Tests/Pods-muscle2Tests.release.xcconfig"; sourceTree = "<group>"; };
-		735DBBE1203C04AA0079FE0F /* senakMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = senakMenuViewController.swift; sourceTree = "<group>"; };
-		735DBBE3203C04BD0079FE0F /* ashiMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ashiMenuViewController.swift; sourceTree = "<group>"; };
-		735DBBE5203C04CA0079FE0F /* haraMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haraMenuViewController.swift; sourceTree = "<group>"; };
 		736F3ED82029B14900A18B3B /* muscle2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = muscle2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736F3EDB2029B14900A18B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		736F3EDD2029B14900A18B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,13 +69,11 @@
 		736F3F0C2029BBEF00A18B3B /* timerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerViewController.swift; sourceTree = "<group>"; };
 		736F3F0E2029BC0300A18B3B /* acoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acoutViewController.swift; sourceTree = "<group>"; };
 		736F3F102029BE0D00A18B3B /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
-		736F3F122029BEB200A18B3B /* menuDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuDetailViewController.swift; sourceTree = "<group>"; };
 		73E867A1202F06F5007ECA4E /* stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch.png; sourceTree = "<group>"; };
 		73E867A3202F0742007ECA4E /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		73E867A5202F077D007ECA4E /* menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu2.png; sourceTree = "<group>"; };
 		73E867A7202F07E5007ECA4E /* acount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acount.png; sourceTree = "<group>"; };
 		73E867A920305867007ECA4E /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
-		73EFEF632039670500EBC7B2 /* udeMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udeMenuViewController.swift; sourceTree = "<group>"; };
 		7AC72FACEC133840465B6CAC /* Pods-muscle2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2.release.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2/Pods-muscle2.release.xcconfig"; sourceTree = "<group>"; };
 		C0BB36B1358A1077A0EC187C /* Pods_muscle2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muscle2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E720C1CEFBC3BA5FF24F0032 /* Pods-muscle2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2/Pods-muscle2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -201,11 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				736F3F102029BE0D00A18B3B /* menuViewController.swift */,
-				736F3F122029BEB200A18B3B /* menuDetailViewController.swift */,
-				73EFEF632039670500EBC7B2 /* udeMenuViewController.swift */,
-				735DBBE1203C04AA0079FE0F /* senakMenuViewController.swift */,
-				735DBBE3203C04BD0079FE0F /* ashiMenuViewController.swift */,
-				735DBBE5203C04CA0079FE0F /* haraMenuViewController.swift */,
 			);
 			path = menu;
 			sourceTree = "<group>";
@@ -526,16 +511,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73EFEF642039670500EBC7B2 /* udeMenuViewController.swift in Sources */,
-				736F3F132029BEB200A18B3B /* menuDetailViewController.swift in Sources */,
-				735DBBE4203C04BD0079FE0F /* ashiMenuViewController.swift in Sources */,
 				736F3F0D2029BBEF00A18B3B /* timerViewController.swift in Sources */,
 				736F3EDE2029B14900A18B3B /* ViewController.swift in Sources */,
 				736F3F0F2029BC0300A18B3B /* acoutViewController.swift in Sources */,
 				736F3F112029BE0D00A18B3B /* menuViewController.swift in Sources */,
-				735DBBE2203C04AA0079FE0F /* senakMenuViewController.swift in Sources */,
 				736F3EE42029B14900A18B3B /* muscle2.xcdatamodeld in Sources */,
-				735DBBE6203C04CA0079FE0F /* haraMenuViewController.swift in Sources */,
 				736F3EDC2029B14900A18B3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

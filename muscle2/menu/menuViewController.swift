@@ -13,6 +13,7 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
     let menuItem = ["胸メニュー", "腕メニュー","背中メニュー","足メニュー","腹メニュー"]
     
     
+    
     @IBOutlet weak var menuTableView: UITableView!
     
 
@@ -39,46 +40,12 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(_ table: UITableView,didSelectRowAt indexPath: IndexPath) {
         
-             if indexPath.row == 0 {
      
-            performSegue(withIdentifier: "gotomune",sender: nil)
-        }
-        
-        if indexPath.row == 1 {
-            
-            performSegue(withIdentifier: "gotoude",sender: nil)
-        }
-        
-        
-        if indexPath.row == 2 {
-            
-            performSegue(withIdentifier: "gotosenaka",sender: nil)
-        }
-        
-        if indexPath.row == 3 {
-            
-            performSegue(withIdentifier: "gotoashi",sender: nil)
-        }
-        
-        if indexPath.row == 4 {
-            
-            performSegue(withIdentifier: "gotohara",sender: nil)
-        }
     }
     
     
     
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
-        
-        if (segue.identifier == "gotomune") {
-            let _: menuDetailViewController = (segue.destination as? menuDetailViewController)!
-            
-        
-        }
-        
-   
-    }
+
     
         
     
