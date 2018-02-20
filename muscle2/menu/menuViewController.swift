@@ -49,7 +49,24 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
             performSegue(withIdentifier: "gotoude",sender: nil)
         }
         
+        
+        if indexPath.row == 2 {
+            
+            performSegue(withIdentifier: "gotosenaka",sender: nil)
+        }
+        
+        if indexPath.row == 3 {
+            
+            performSegue(withIdentifier: "gotoashi",sender: nil)
+        }
+        
+        if indexPath.row == 4 {
+            
+            performSegue(withIdentifier: "gotohara",sender: nil)
+        }
     }
+    
+    
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
