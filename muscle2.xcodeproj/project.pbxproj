@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FB2AC302CBEA556EB1EA525 /* Pods_muscle2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50429A7B3B0E56AB70BAFC1E /* Pods_muscle2UITests.framework */; };
+		7345FCCB203ECAF200D35E49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7345FCCA203ECAF200D35E49 /* GoogleService-Info.plist */; };
 		736F3EDC2029B14900A18B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3EDB2029B14900A18B3B /* AppDelegate.swift */; };
 		736F3EDE2029B14900A18B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3EDD2029B14900A18B3B /* ViewController.swift */; };
 		736F3EE12029B14900A18B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736F3EDF2029B14900A18B3B /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		625F163168067A38EE247A4D /* Pods_muscle2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muscle2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		700AC5BE1D36CF5A0FAE289A /* Pods-muscle2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2UITests/Pods-muscle2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		725CBF2E50DC6EA735A4B8DE /* Pods-muscle2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2Tests/Pods-muscle2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7345FCCA203ECAF200D35E49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		736F3ED82029B14900A18B3B /* muscle2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = muscle2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736F3EDB2029B14900A18B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		736F3EDD2029B14900A18B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				73E867A0202F06CC007ECA4E /* images */,
 				73EFEF61203966A500EBC7B2 /* menu */,
 				73EFEF62203966D100EBC7B2 /* user */,
+				7345FCCA203ECAF200D35E49 /* GoogleService-Info.plist */,
 				736F3F0C2029BBEF00A18B3B /* timerViewController.swift */,
 				736F3EE52029B14900A18B3B /* Assets.xcassets */,
 				736F3EE72029B14900A18B3B /* LaunchScreen.storyboard */,
@@ -338,6 +341,7 @@
 				73E867A2202F06F5007ECA4E /* stopwatch.png in Resources */,
 				73E867AA20305868007ECA4E /* cat.jpeg in Resources */,
 				73E867A6202F077D007ECA4E /* menu2.png in Resources */,
+				7345FCCB203ECAF200D35E49 /* GoogleService-Info.plist in Resources */,
 				736F3EE62029B14900A18B3B /* Assets.xcassets in Resources */,
 				736F3EE12029B14900A18B3B /* Main.storyboard in Resources */,
 			);
@@ -462,9 +466,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-muscle2/Pods-muscle2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

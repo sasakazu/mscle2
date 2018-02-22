@@ -6,6 +6,13 @@ target 'muscle2' do
   use_frameworks!
 
   # Pods for muscle2
+  
+  pod 'Firebase/Core'
+
+
+
+
+
 
   target 'muscle2Tests' do
     inherit! :search_paths
