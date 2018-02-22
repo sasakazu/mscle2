@@ -27,8 +27,23 @@ class loginViewController: UIViewController {
     
     @IBAction func loginTapped(_ sender: Any) {
         
-    
+        Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) {
+            
+            (user, error) in
+            if error != nil {
+                print("サインインできませんでした")
+            }
+            if user != nil {
+                self.dismiss(animated: true, completion: nil)
+            } else {
+                print("サインインできませんでした")
+            }
+        }
+        
+        print("login done")
     }
+    
+    
     
     
     
