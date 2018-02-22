@@ -195,10 +195,10 @@
             </objects>
             <point key="canvasLocation" x="458" y="70"/>
         </scene>
-        <!--View Controller-->
+        <!--Signup View Controller-->
         <scene sceneID="xg4-0q-mda">
             <objects>
-                <viewController id="hdD-UJ-1ja" sceneMemberID="viewController">
+                <viewController id="hdD-UJ-1ja" customClass="signupViewController" customModule="muscle2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gj9-i7-bRg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,6 +225,9 @@
                                 <rect key="frame" x="138" y="384" width="98" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="signupTapped:" destination="hdD-UJ-1ja" eventType="touchUpInside" id="ogT-Ya-F5s"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQf-lF-ccV">
                                 <rect key="frame" x="130" y="584" width="114" height="30"/>
@@ -264,6 +267,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xhx-UV-s6N"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="zsF-bI-j1Z" id="7G5-5z-21b"/>
+                        <outlet property="passConfirmationTextField" destination="3PZ-KZ-QVK" id="nbq-vV-h7m"/>
+                        <outlet property="passwordTextField" destination="V28-pW-UXZ" id="aof-Vy-t8B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ayg-RL-Mho" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -288,10 +296,10 @@
             </objects>
             <point key="canvasLocation" x="-465" y="70"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="lag-50-8b4">
             <objects>
-                <viewController id="eJC-Jl-cdw" sceneMemberID="viewController">
+                <viewController id="eJC-Jl-cdw" customClass="loginViewController" customModule="muscle2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QiV-7U-jbk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -325,6 +333,9 @@
                                 <rect key="frame" x="138" y="317" width="98" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginTapped:" destination="eJC-Jl-cdw" eventType="touchUpInside" id="qfc-Wd-K3a"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -348,6 +359,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kge-jR-zR1"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="Tqq-Tt-vLN" id="4uL-jx-kN3"/>
+                        <outlet property="passwordTextField" destination="h4Z-az-R4N" id="AN3-RZ-NyG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jwn-j2-mEd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
