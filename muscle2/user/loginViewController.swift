@@ -8,6 +8,8 @@
 
 import UIKit
 import Firebase
+import FirebaseAuth
+
 
 class loginViewController: UIViewController {
     
@@ -25,7 +27,7 @@ class loginViewController: UIViewController {
     
     @IBAction func loginTapped(_ sender: Any) {
         
-      
+    
     }
     
     

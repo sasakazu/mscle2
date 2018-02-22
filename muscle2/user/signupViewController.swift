@@ -8,6 +8,8 @@
 
 import UIKit
 import Firebase
+import FirebaseAuth
+
 
 class signupViewController: UIViewController {
 
@@ -19,12 +21,25 @@ class signupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
     }
 
     @IBAction func signupTapped(_ sender: Any) {
-
+        
+        Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
+            if error != nil {
+                print("登録できませんでした")
+            }
+            if let user = user {
+                print(user.email! as Any)
+                self.dismiss(animated: true, completion: nil)
+            } else {
+                print("登録できませんですた")
+            }
+        }
     }
+    
     
     
     
@@ -33,6 +48,9 @@ class signupViewController: UIViewController {
     
     }
     
-
-
+  
+    
 }
+
+
+
