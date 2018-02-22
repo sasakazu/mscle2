@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class signupViewController: UIViewController {
 
@@ -22,6 +23,7 @@ class signupViewController: UIViewController {
     }
 
     @IBAction func signupTapped(_ sender: Any) {
+
     }
     
     

@@ -8,6 +8,7 @@ target 'muscle2' do
   # Pods for muscle2
   
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
 
 
