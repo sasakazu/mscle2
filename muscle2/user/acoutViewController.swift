@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+
 
 class acoutViewController: UIViewController {
 
@@ -16,6 +19,24 @@ class acoutViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func logoutTapped(_ sender: Any) {
+        
+        let firebaseAuth = Auth.auth()
+        
+        do {
+            try firebaseAuth.signOut()
+            
+            print("sign out done")
+            
+        } catch let signOutError as NSError {
+            
+            print ("Error signing out: %@", signOutError)
+        }
+        
+    
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

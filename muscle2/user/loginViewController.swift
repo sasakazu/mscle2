@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import GoogleSignIn
 
 
 class loginViewController: UIViewController {
@@ -39,8 +40,11 @@ class loginViewController: UIViewController {
                 print("サインインできませんでした")
             }
         }
+        let next = storyboard!.instantiateViewController(withIdentifier: "acount")
+        self.present(next,animated: true, completion: nil)
         
         print("login done")
+        
     }
     
     

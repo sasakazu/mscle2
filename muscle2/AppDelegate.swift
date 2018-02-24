@@ -12,9 +12,10 @@ import Firebase
 
 
 @UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    
+ 
     
 
     var window: UIWindow?
@@ -24,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         FirebaseApp.configure()
-
+        
         return true
     }
 
@@ -97,6 +98,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
     
+    
+
 
 }
+
 

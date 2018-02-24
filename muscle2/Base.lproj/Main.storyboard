@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eJC-Jl-cdw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FOT-lk-38v">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -275,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ayg-RL-Mho" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1415" y="393"/>
+            <point key="canvasLocation" x="-1418" y="393"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="neO-h7-Uti">
@@ -299,7 +299,7 @@
         <!--Login View Controller-->
         <scene sceneID="lag-50-8b4">
             <objects>
-                <viewController id="eJC-Jl-cdw" customClass="loginViewController" customModule="muscle2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" id="eJC-Jl-cdw" customClass="loginViewController" customModule="muscle2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QiV-7U-jbk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -371,7 +371,7 @@
         <!--Item-->
         <scene sceneID="OFI-Wv-09f">
             <objects>
-                <navigationController id="aPD-Ny-54d" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="acount" id="aPD-Ny-54d" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" image="acount.png" id="UNA-uJ-TU3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="u4s-ES-uve">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -388,7 +388,7 @@
         <!--アカウント-->
         <scene sceneID="niq-qr-GpL">
             <objects>
-                <viewController id="XTv-gs-0wn" sceneMemberID="viewController">
+                <viewController id="XTv-gs-0wn" customClass="acoutViewController" customModule="muscle2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e73-6t-iQ8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -444,7 +444,11 @@
                         <viewLayoutGuide key="safeArea" id="091-AR-2KP"/>
                     </view>
                     <navigationItem key="navigationItem" title="アカウント" id="uMK-vF-V5l">
-                        <barButtonItem key="rightBarButtonItem" title="LogOut" id="fJn-xl-yK8"/>
+                        <barButtonItem key="rightBarButtonItem" title="LogOut" id="fJn-xl-yK8">
+                            <connections>
+                                <action selector="logoutTapped:" destination="XTv-gs-0wn" id="7d1-83-EIN"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YeK-0S-5sC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -473,4 +477,7 @@
         <image name="menu.png" width="32" height="32"/>
         <image name="stopwatch.png" width="32" height="32"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ogB-Ca-yLF"/>
+    </inferredMetricsTieBreakers>
 </document>

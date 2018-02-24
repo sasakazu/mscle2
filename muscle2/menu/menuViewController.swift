@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class menuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
     
     let muneItem = ["ベンチ"]
     let udeItem = [ "ダンベル" ]
@@ -18,12 +21,15 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     let menuSection = [ "胸","腕", "背中", "腹", "足" ]
     
+  
+    
     
     @IBOutlet weak var menuTableView: UITableView!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
 
         menuTableView.dataSource = self
         menuTableView.delegate = self
