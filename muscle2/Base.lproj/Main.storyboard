@@ -513,7 +513,4 @@
         <image name="menu.png" width="32" height="32"/>
         <image name="stopwatch.png" width="32" height="32"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="D8P-UY-AlI"/>
-    </inferredMetricsTieBreakers>
 </document>

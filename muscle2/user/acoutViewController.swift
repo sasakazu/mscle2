@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import FirebaseDatabase
 
 
 class acoutViewController: UIViewController {
@@ -18,7 +19,6 @@ class acoutViewController: UIViewController {
     @IBOutlet weak var mailLabel: UILabel!
     
     @IBOutlet weak var userImage: UIImageView!
-    
   
     
     override func viewDidLoad() {

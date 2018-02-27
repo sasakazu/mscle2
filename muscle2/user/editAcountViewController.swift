@@ -7,17 +7,24 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
+import FirebaseAuth
 
-class editAcountViewController: UIViewController {
 
+class editAcountViewController: UIViewController, UITextFieldDelegate {
+
+ 
+    var ref: DatabaseReference!
+    
     
     @IBOutlet weak var userNameEditTextField: UITextField!
-    
-    
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        userNameEditTextField.delegate = self //デリゲートをセット
+        
+       
     }
 
     @IBAction func acountEditImage(_ sender: Any) {
@@ -28,8 +35,20 @@ class editAcountViewController: UIViewController {
     
     @IBAction func acountButtonTapped(_ sender: Any) {
         
-        
+        ref = Database.database().reference()
+
+        if userNameEditTextField.text != "" {
+            
+            ref?.child("users").child((Auth.auth().currentUser?.uid)!).setValue(["username": userNameEditTextField.text ])
+            
+
+        }
     }
+    
+ 
+  
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

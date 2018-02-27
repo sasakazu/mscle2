@@ -10,6 +10,7 @@ target 'muscle2' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
+  pod 'FirebaseDatabase'
 
 
 
