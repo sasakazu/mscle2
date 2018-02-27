@@ -13,10 +13,28 @@ import FirebaseAuth
 
 class acoutViewController: UIViewController {
 
+    
+    @IBOutlet weak var userNameLabel: UILabel!
+    @IBOutlet weak var mailLabel: UILabel!
+    
+    @IBOutlet weak var userImage: UIImageView!
+    
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let user = Auth.auth().currentUser
+        
+        if let user = user {
+            let uid = user.uid
+            let email = user.email
+            let photoURL = user.photoURL
+            // ...
+        }
+        
+        mailLabel.text = user?.email
+        
     }
 
     @IBAction func logoutTapped(_ sender: Any) {

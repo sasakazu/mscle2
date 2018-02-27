@@ -40,8 +40,6 @@ class loginViewController: UIViewController {
                 print("サインインできませんでした")
             }
         }
-        let next = storyboard!.instantiateViewController(withIdentifier: "acount")
-        self.present(next,animated: true, completion: nil)
         
         print("login done")
         
