@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FB2AC302CBEA556EB1EA525 /* Pods_muscle2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50429A7B3B0E56AB70BAFC1E /* Pods_muscle2UITests.framework */; };
+		733B02662045633300023EB2 /* editAcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733B02652045633300023EB2 /* editAcountViewController.swift */; };
 		7345FCCB203ECAF200D35E49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7345FCCA203ECAF200D35E49 /* GoogleService-Info.plist */; };
 		7345FCCD203ECD0300D35E49 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345FCCC203ECD0300D35E49 /* loginViewController.swift */; };
 		7345FCCF203ECD1100D35E49 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345FCCE203ECD1100D35E49 /* signupViewController.swift */; };
@@ -55,6 +56,7 @@
 		625F163168067A38EE247A4D /* Pods_muscle2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muscle2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		700AC5BE1D36CF5A0FAE289A /* Pods-muscle2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2UITests/Pods-muscle2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		725CBF2E50DC6EA735A4B8DE /* Pods-muscle2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2Tests/Pods-muscle2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		733B02652045633300023EB2 /* editAcountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editAcountViewController.swift; sourceTree = "<group>"; };
 		7345FCCA203ECAF200D35E49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7345FCCC203ECD0300D35E49 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		7345FCCE203ECD1100D35E49 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 		73EFEF62203966D100EBC7B2 /* user */ = {
 			isa = PBXGroup;
 			children = (
+				733B02652045633300023EB2 /* editAcountViewController.swift */,
 				7345FCCC203ECD0300D35E49 /* loginViewController.swift */,
 				7345FCCE203ECD1100D35E49 /* signupViewController.swift */,
 				736F3F0E2029BC0300A18B3B /* acoutViewController.swift */,
@@ -539,6 +542,7 @@
 				736F3EDE2029B14900A18B3B /* ViewController.swift in Sources */,
 				736F3F0F2029BC0300A18B3B /* acoutViewController.swift in Sources */,
 				736F3F112029BE0D00A18B3B /* menuViewController.swift in Sources */,
+				733B02662045633300023EB2 /* editAcountViewController.swift in Sources */,
 				736F3EE42029B14900A18B3B /* muscle2.xcdatamodeld in Sources */,
 				736F3EDC2029B14900A18B3B /* AppDelegate.swift in Sources */,
 			);

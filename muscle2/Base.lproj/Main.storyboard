@@ -420,7 +420,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IQ-yS-OwG">
                                 <rect key="frame" x="102" y="529" width="170" height="30"/>
-                                <state key="normal" title="[  プロフィール編集  ]"/>
+                                <state key="normal" title="[  プロフィール変更  ]"/>
                                 <connections>
                                     <segue destination="ynk-g7-RrO" kind="show" id="HA1-Cf-Kx2"/>
                                 </connections>
@@ -460,10 +460,10 @@
             </objects>
             <point key="canvasLocation" x="456.80000000000001" y="807.34632683658174"/>
         </scene>
-        <!--View Controller-->
+        <!--Edit Acount View Controller-->
         <scene sceneID="m74-pT-wu8">
             <objects>
-                <viewController id="ynk-g7-RrO" sceneMemberID="viewController">
+                <viewController id="ynk-g7-RrO" customClass="editAcountViewController" customModule="muscle2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j01-p6-8jw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -475,20 +475,33 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gb6-tC-XBZ">
-                                <rect key="frame" x="16" y="176" width="158" height="143"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEa-Tk-jNI">
                                 <rect key="frame" x="111" y="485" width="152" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="完了"/>
+                                <connections>
+                                    <action selector="acountButtonTapped:" destination="ynk-g7-RrO" eventType="touchUpInside" id="Syg-V9-l41"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfd-1d-LBs">
+                                <rect key="frame" x="98" y="222" width="178" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="画像変更">
+                                    <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="acountEditImage:" destination="ynk-g7-RrO" eventType="touchUpInside" id="9V7-X4-ySC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mR7-SV-tFm"/>
                     </view>
+                    <connections>
+                        <outlet property="userNameEditTextField" destination="VWc-o9-7yM" id="CzL-1Z-06g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xDK-Xc-ykI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
