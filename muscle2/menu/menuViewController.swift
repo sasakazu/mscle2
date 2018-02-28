@@ -19,12 +19,15 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
     let haraItem = [ "腹筋" ]
     let ashiItem = [ "デットリフト" ]
     
+    let addItem = [""]
+    
     let menuSection = [ "胸","腕", "背中", "腹", "足" ]
     
   
     
     
     @IBOutlet weak var menuTableView: UITableView!
+    @IBOutlet weak var label: UILabel!
     
 
     override func viewDidLoad() {
@@ -115,7 +118,15 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
 
     
+    
+    @IBAction func addtemTapped(_ sender: Any) {
         
+      
+    
+    }
+
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -19,19 +19,24 @@ class editAcountViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBOutlet weak var userNameEditTextField: UITextField!
- 
+    @IBOutlet weak var acountImage: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        userNameEditTextField.delegate = self //デリゲートをセット
-        
+        userNameEditTextField.delegate = self
        
     }
-
-    @IBAction func acountEditImage(_ sender: Any) {
     
+    
+    @IBAction func cameraTapped(_ sender: Any) {
     
     }
     
+    @IBAction func libraryTapped(_ sender: Any) {
+    }
+    
+
     
     @IBAction func acountButtonTapped(_ sender: Any) {
         
@@ -44,6 +49,9 @@ class editAcountViewController: UIViewController, UITextFieldDelegate {
 
         }
     }
+    
+    
+    
     
  
     //Returnキーを押すと、キーボードを隠す
