@@ -28,7 +28,11 @@ class loginViewController: UIViewController {
     
     @IBAction func loginTapped(_ sender: Any) {
         
-        Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) {
+        guard let email = emailTextField.text else  { return }
+        guard let password = passwordTextField.text else { return }
+        
+        Auth.auth().signIn(withEmail: email, password: password) {
+            
             
             (user, error) in
             if error != nil {
@@ -41,7 +45,6 @@ class loginViewController: UIViewController {
             }
         }
         
-        print("login done")
         
     }
     

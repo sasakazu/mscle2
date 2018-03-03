@@ -17,23 +17,18 @@ class acoutViewController: UIViewController {
     
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var mailLabel: UILabel!
-    
     @IBOutlet weak var userImage: UIImageView!
   
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         let user = Auth.auth().currentUser
         
-        if let user = user {
-            let uid = user.uid
-            let email = user.email
-            let photoURL = user.photoURL
-            // ...
-        }
-        
         mailLabel.text = user?.email
+        userNameLabel.text = user?.uid
         
     }
 
@@ -54,13 +49,6 @@ class acoutViewController: UIViewController {
     
     }
     
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
  
 
 }
