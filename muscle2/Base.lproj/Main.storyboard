@@ -201,7 +201,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxw-O2-M5R">
-                                <rect key="frame" x="136" y="100" width="103" height="24"/>
+                                <rect key="frame" x="136" y="45" width="103" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -251,7 +251,7 @@
                         <constraints>
                             <constraint firstItem="xhx-UV-s6N" firstAttribute="trailing" secondItem="qbB-Zz-hSt" secondAttribute="trailing" constant="139" id="8hH-SN-vHA"/>
                             <constraint firstItem="xhx-UV-s6N" firstAttribute="bottom" secondItem="MQf-lF-ccV" secondAttribute="bottom" constant="53" id="F9q-ug-YvB"/>
-                            <constraint firstItem="zsF-bI-j1Z" firstAttribute="top" secondItem="Kxw-O2-M5R" secondAttribute="bottom" constant="40" id="Jus-dY-0fk"/>
+                            <constraint firstItem="zsF-bI-j1Z" firstAttribute="top" secondItem="Kxw-O2-M5R" secondAttribute="bottom" constant="95" id="Jus-dY-0fk"/>
                             <constraint firstItem="zsF-bI-j1Z" firstAttribute="leading" secondItem="xhx-UV-s6N" secondAttribute="leading" constant="16" id="KVX-yv-HRo"/>
                             <constraint firstItem="xhx-UV-s6N" firstAttribute="trailing" secondItem="zsF-bI-j1Z" secondAttribute="trailing" constant="16" id="Mrq-vC-3Zu"/>
                             <constraint firstItem="MQf-lF-ccV" firstAttribute="top" secondItem="qbB-Zz-hSt" secondAttribute="bottom" constant="39" id="NaC-hl-iZA"/>
@@ -264,7 +264,7 @@
                             <constraint firstItem="xhx-UV-s6N" firstAttribute="trailing" secondItem="MQf-lF-ccV" secondAttribute="trailing" constant="131" id="c5z-Nd-YlY"/>
                             <constraint firstItem="V28-pW-UXZ" firstAttribute="leading" secondItem="xhx-UV-s6N" secondAttribute="leading" constant="16" id="g2W-yS-kBZ"/>
                             <constraint firstItem="Kxw-O2-M5R" firstAttribute="leading" secondItem="xhx-UV-s6N" secondAttribute="leading" constant="136" id="gVv-bg-CVf"/>
-                            <constraint firstItem="Kxw-O2-M5R" firstAttribute="top" secondItem="xhx-UV-s6N" secondAttribute="top" constant="80" id="lcz-M0-pp3"/>
+                            <constraint firstItem="Kxw-O2-M5R" firstAttribute="top" secondItem="xhx-UV-s6N" secondAttribute="top" constant="25" id="lcz-M0-pp3"/>
                             <constraint firstItem="3PZ-KZ-QVK" firstAttribute="leading" secondItem="xhx-UV-s6N" secondAttribute="leading" constant="16" id="sk3-FS-dce"/>
                             <constraint firstItem="V28-pW-UXZ" firstAttribute="top" secondItem="zsF-bI-j1Z" secondAttribute="bottom" constant="14" id="suv-S0-vdl"/>
                             <constraint firstItem="xhx-UV-s6N" firstAttribute="trailing" secondItem="Kxw-O2-M5R" secondAttribute="trailing" constant="136" id="yrD-yx-pbT"/>
@@ -320,7 +320,7 @@
                                 <rect key="frame" x="16" y="183" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log In" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRe-wV-yQP">
                                 <rect key="frame" x="152" y="70" width="70" height="24"/>
@@ -455,6 +455,7 @@
         <image name="stopwatch.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tFu-fK-lJs"/>
+        <segue reference="D8P-UY-AlI"/>
+        <segue reference="ogB-Ca-yLF"/>
     </inferredMetricsTieBreakers>
 </document>
