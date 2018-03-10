@@ -228,7 +228,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dIA-QA-YqE">
-                                <rect key="frame" x="16" y="326" width="142" height="132"/>
+                                <rect key="frame" x="16" y="341" width="142" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlF-Q2-RJ7">
@@ -455,7 +455,6 @@
         <image name="stopwatch.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="D8P-UY-AlI"/>
         <segue reference="ogB-Ca-yLF"/>
     </inferredMetricsTieBreakers>
 </document>
