@@ -13,15 +13,15 @@ import FirebaseAuth
 class menuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     
-    let muneItem = ["ベンチ"]
-    let udeItem = [ "ダンベル" ]
+    let muneItem = ["ベンチプレス", "インクラインベンチプレス", "ダンベルフライ", "ダンベルベンチプレス" ]
+    let udeItem = [ "ダンベルカール" ]
     let senakaItem = [ "懸垂" ]
     let haraItem = [ "腹筋" ]
     let ashiItem = [ "デットリフト" ]
     
     let addItem = [""]
     
-    let menuSection = [ "胸","腕", "背中", "腹", "足" ]
+    let menuSection = [ "胸","腕", "背中", "腹", "足", "その他" ]
     
   
     

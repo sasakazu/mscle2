@@ -23,6 +23,7 @@
 		736F3F0D2029BBEF00A18B3B /* timerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F0C2029BBEF00A18B3B /* timerViewController.swift */; };
 		736F3F0F2029BC0300A18B3B /* acoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F0E2029BC0300A18B3B /* acoutViewController.swift */; };
 		736F3F112029BE0D00A18B3B /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F102029BE0D00A18B3B /* menuViewController.swift */; };
+		739A58D820553F3D00B7730D /* addItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A58D720553F3D00B7730D /* addItemViewController.swift */; };
 		73E867A2202F06F5007ECA4E /* stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A1202F06F5007ECA4E /* stopwatch.png */; };
 		73E867A4202F0742007ECA4E /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A3202F0742007ECA4E /* menu.png */; };
 		73E867A6202F077D007ECA4E /* menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A5202F077D007ECA4E /* menu2.png */; };
@@ -77,6 +78,7 @@
 		736F3F0C2029BBEF00A18B3B /* timerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerViewController.swift; sourceTree = "<group>"; };
 		736F3F0E2029BC0300A18B3B /* acoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acoutViewController.swift; sourceTree = "<group>"; };
 		736F3F102029BE0D00A18B3B /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		739A58D720553F3D00B7730D /* addItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addItemViewController.swift; sourceTree = "<group>"; };
 		73E867A1202F06F5007ECA4E /* stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch.png; sourceTree = "<group>"; };
 		73E867A3202F0742007ECA4E /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		73E867A5202F077D007ECA4E /* menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu2.png; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 		73EFEF61203966A500EBC7B2 /* menu */ = {
 			isa = PBXGroup;
 			children = (
+				739A58D720553F3D00B7730D /* addItemViewController.swift */,
 				736F3F102029BE0D00A18B3B /* menuViewController.swift */,
 			);
 			path = menu;
@@ -539,6 +542,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7345FCCD203ECD0300D35E49 /* loginViewController.swift in Sources */,
+				739A58D820553F3D00B7730D /* addItemViewController.swift in Sources */,
 				736F3F0D2029BBEF00A18B3B /* timerViewController.swift in Sources */,
 				7345FCCF203ECD1100D35E49 /* signupViewController.swift in Sources */,
 				736F3EDE2029B14900A18B3B /* ViewController.swift in Sources */,

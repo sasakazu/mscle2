@@ -53,6 +53,7 @@
                                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="iio-ev-mIW">
                                             <connections>
                                                 <action selector="addtemTapped:" destination="o4R-Jx-JFG" id="dco-4M-NHr"/>
+                                                <segue destination="nRv-b1-AAc" kind="show" id="ap3-Kn-cLO"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -92,6 +93,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DP1-7L-4bA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="456.80000000000001" y="-699.40029985007504"/>
+        </scene>
+        <!--Add Item View Controller-->
+        <scene sceneID="w1f-Qu-WWW">
+            <objects>
+                <viewController id="nRv-b1-AAc" customClass="addItemViewController" customModule="muscle2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4b9-AZ-kH0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KTJ-5w-Yva">
+                                <rect key="frame" x="0.0" y="27" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Add Item" id="la8-kW-PLe">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="AaD-Xf-MWy">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ecW-Ci-Xcu">
+                                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Cancel"/>
+                                            </button>
+                                            <connections>
+                                                <action selector="cancelTapped:" destination="nRv-b1-AAc" id="nyQ-DP-wCi"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="UOL-VW-GJp">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eZ1-uE-6yU">
+                                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Save"/>
+                                            </button>
+                                            <connections>
+                                                <action selector="saveTapped:" destination="nRv-b1-AAc" id="Tzs-19-As7"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xk9-Yd-OmI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New Item" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KUN-z7-HlB">
+                                <rect key="frame" x="16" y="124" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ti6-lF-Sgn"/>
+                    </view>
+                    <connections>
+                        <outlet property="addItemTextField" destination="KUN-z7-HlB" id="qhM-ez-R4Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qFj-6z-FS5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1332" y="-699"/>
         </scene>
         <!--インターバル-->
         <scene sceneID="dtI-ng-sK2">
