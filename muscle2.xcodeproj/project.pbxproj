@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3FB2AC302CBEA556EB1EA525 /* Pods_muscle2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50429A7B3B0E56AB70BAFC1E /* Pods_muscle2UITests.framework */; };
+		730AC5FF206110EF002274FB /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AC5FE206110EF002274FB /* AddController.swift */; };
+		730AC6012061119E002274FB /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AC6002061119E002274FB /* menuViewController.swift */; };
+		730AC60320611213002274FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AC60220611213002274FB /* Constants.swift */; };
 		733B02662045633300023EB2 /* editAcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733B02652045633300023EB2 /* editAcountViewController.swift */; };
 		7345FCCB203ECAF200D35E49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7345FCCA203ECAF200D35E49 /* GoogleService-Info.plist */; };
 		7345FCCD203ECD0300D35E49 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345FCCC203ECD0300D35E49 /* loginViewController.swift */; };
@@ -22,8 +25,6 @@
 		736F3EFF2029B14A00A18B3B /* muscle2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3EFE2029B14A00A18B3B /* muscle2UITests.swift */; };
 		736F3F0D2029BBEF00A18B3B /* timerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F0C2029BBEF00A18B3B /* timerViewController.swift */; };
 		736F3F0F2029BC0300A18B3B /* acoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F0E2029BC0300A18B3B /* acoutViewController.swift */; };
-		736F3F112029BE0D00A18B3B /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F3F102029BE0D00A18B3B /* menuViewController.swift */; };
-		739A58D820553F3D00B7730D /* addItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A58D720553F3D00B7730D /* addItemViewController.swift */; };
 		73E867A2202F06F5007ECA4E /* stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A1202F06F5007ECA4E /* stopwatch.png */; };
 		73E867A4202F0742007ECA4E /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A3202F0742007ECA4E /* menu.png */; };
 		73E867A6202F077D007ECA4E /* menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E867A5202F077D007ECA4E /* menu2.png */; };
@@ -57,6 +58,9 @@
 		625F163168067A38EE247A4D /* Pods_muscle2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muscle2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		700AC5BE1D36CF5A0FAE289A /* Pods-muscle2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2UITests/Pods-muscle2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		725CBF2E50DC6EA735A4B8DE /* Pods-muscle2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscle2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-muscle2Tests/Pods-muscle2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		730AC5FE206110EF002274FB /* AddController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		730AC6002061119E002274FB /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		730AC60220611213002274FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		733B02652045633300023EB2 /* editAcountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editAcountViewController.swift; sourceTree = "<group>"; };
 		7345FCCA203ECAF200D35E49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7345FCCC203ECD0300D35E49 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
@@ -77,8 +81,6 @@
 		736F3F002029B14A00A18B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		736F3F0C2029BBEF00A18B3B /* timerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerViewController.swift; sourceTree = "<group>"; };
 		736F3F0E2029BC0300A18B3B /* acoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acoutViewController.swift; sourceTree = "<group>"; };
-		736F3F102029BE0D00A18B3B /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
-		739A58D720553F3D00B7730D /* addItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addItemViewController.swift; sourceTree = "<group>"; };
 		73E867A1202F06F5007ECA4E /* stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch.png; sourceTree = "<group>"; };
 		73E867A3202F0742007ECA4E /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		73E867A5202F077D007ECA4E /* menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu2.png; sourceTree = "<group>"; };
@@ -201,8 +203,9 @@
 		73EFEF61203966A500EBC7B2 /* menu */ = {
 			isa = PBXGroup;
 			children = (
-				739A58D720553F3D00B7730D /* addItemViewController.swift */,
-				736F3F102029BE0D00A18B3B /* menuViewController.swift */,
+				730AC6002061119E002274FB /* menuViewController.swift */,
+				730AC60220611213002274FB /* Constants.swift */,
+				730AC5FE206110EF002274FB /* AddController.swift */,
 			);
 			path = menu;
 			sourceTree = "<group>";
@@ -542,15 +545,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7345FCCD203ECD0300D35E49 /* loginViewController.swift in Sources */,
-				739A58D820553F3D00B7730D /* addItemViewController.swift in Sources */,
+				730AC60320611213002274FB /* Constants.swift in Sources */,
 				736F3F0D2029BBEF00A18B3B /* timerViewController.swift in Sources */,
 				7345FCCF203ECD1100D35E49 /* signupViewController.swift in Sources */,
+				730AC5FF206110EF002274FB /* AddController.swift in Sources */,
 				736F3EDE2029B14900A18B3B /* ViewController.swift in Sources */,
 				736F3F0F2029BC0300A18B3B /* acoutViewController.swift in Sources */,
-				736F3F112029BE0D00A18B3B /* menuViewController.swift in Sources */,
 				733B02662045633300023EB2 /* editAcountViewController.swift in Sources */,
 				736F3EE42029B14900A18B3B /* muscle2.xcdatamodeld in Sources */,
 				736F3EDC2029B14900A18B3B /* AppDelegate.swift in Sources */,
+				730AC6012061119E002274FB /* menuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
