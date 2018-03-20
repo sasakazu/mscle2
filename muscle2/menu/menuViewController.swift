@@ -10,7 +10,7 @@ import UIKit
 
 class menuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    
+    let menu = ["ベンチ", "プレス"]
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -52,6 +52,8 @@ class menuViewController: UIViewController, UITableViewDelegate, UITableViewData
             cell.textLabel?.text = todo[indexPath.row]
         
         }
+        
+        
         return cell
         
     }
