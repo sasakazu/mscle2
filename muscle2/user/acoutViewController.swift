@@ -15,10 +15,7 @@ import FirebaseDatabase
 class acoutViewController: UIViewController {
 
     
-    @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var mailLabel: UILabel!
-    @IBOutlet weak var userImage: UIImageView!
-  
     
     
     
@@ -28,8 +25,6 @@ class acoutViewController: UIViewController {
         let user = Auth.auth().currentUser
         
         mailLabel.text = user?.email
-        userNameLabel.text = user?.uid
-        
     }
 
     @IBAction func logoutTapped(_ sender: Any) {

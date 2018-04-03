@@ -15,12 +15,9 @@ class signupViewController: UIViewController, UIImagePickerControllerDelegate,
 UINavigationControllerDelegate {
 
 
-    @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var passConfirmationTextField: UITextField!
-    
-    @IBOutlet weak var userImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,34 +25,6 @@ UINavigationControllerDelegate {
 
     }
 
-    
-    
-    
-    
-    @IBAction func selectedPicture(_ sender: Any) {
-        
-        let album = UIImagePickerControllerSourceType.photoLibrary
-        if UIImagePickerController.isSourceTypeAvailable(album) {
-            let album = UIImagePickerController()
-            album.delegate = self
-            album.sourceType = UIImagePickerControllerSourceType.photoLibrary
-            album.allowsEditing = true
-            self.present(album, animated: true, completion: nil)
-        }
-         
-    }
-    
-
-    
-    
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
-        self.userImageView.image = image
-        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
-        self.dismiss(animated: true, completion: nil)
-    }
-    
-    
     
     @IBAction func signupTapped(_ sender: Any) {
         
